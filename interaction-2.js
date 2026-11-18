@@ -125,7 +125,7 @@ function playAudio() {
     clearTimeout(doorStopTimer);
 
     doorStopTimer = setTimeout(() => {
-        dspNode.setParamValue("/door/position", 0);
+        dspNode.setParamValue("/door/door/position", 0);
     }, 700);
 }
 
